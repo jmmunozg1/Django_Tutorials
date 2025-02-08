@@ -1,0 +1,17 @@
+# Ignorar el entorno virtual
+helloworld/venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de bases de datos locales
+*.sqlite3
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
