@@ -6,8 +6,7 @@ class Product(models.Model):
     price = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-
+        
 class Comment(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     description = models.TextField()
-    
